@@ -12,7 +12,7 @@ OBS_MODULE_USE_DEFAULT_LOCALE("ndi", "en-US")
 
 bool obs_module_load(void)
 {
-	ndibridge_path = "/usr/local/bin/ndibridge";
+	ndibridge_path = "/usr/local/bin/ndiflbridge";
 	GetGlobalFinder();
 	NDIOutputRegister();
 	NDISourceRegister();
